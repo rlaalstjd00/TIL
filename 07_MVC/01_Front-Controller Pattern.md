@@ -8,13 +8,13 @@
 
 > a.jsp --> web.xml --> Servlet (FrontController.java)
 >
-> ​														↓
+> ​                                                        ↓
 >
-> ​										if, switch문으로 분기
+> ​                                       if, switch문으로 분기
 >
-> ​														↓
+> ​                                                        ↓
 >
-> ​											Controller (~~Action)
+> ​                                        Controller (~~Action)
 
 #### web.xml 매핑
 
