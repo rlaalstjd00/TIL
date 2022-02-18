@@ -19,6 +19,8 @@
   - size 는 end - begin
   - empty 는 begin = end 확인
 
+> [큐의 구현 (python) 백준 10845](https://github.com/rlaalstjd00/Algorithm_Quiz/blob/master/Baekjoon/Data_Structures/10845.py)
+
 
 
 ## 덱 (Deque)

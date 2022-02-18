@@ -16,3 +16,5 @@
   - push는 stack[size] 에 값을 넣고, size += 1
   - pop은 stack[size-1] 의 값을 지우고, size -= 1
 
+> [스택의 구현 (python) 백준10828](https://github.com/rlaalstjd00/Algorithm_Quiz/blob/master/Baekjoon/Data_Structures/10828.py)
+
