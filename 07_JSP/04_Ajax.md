@@ -77,7 +77,7 @@ Ajax 요청시 xhr 객체는 상태별로 readyState가 바뀐다.
 
 #### Ajax 예제
 
-- [Ajax 이용해서 아이디 중복검사하기](https://github.com/rlaalstjd00/Web_practice/tree/master/00_ajax_prac)
+- [Ajax 이용해서 아이디 중복검사하기](https://github.com/rlaalstjd00/Web_practice/tree/master/00_ajax-prac)
 
 
 

@@ -4,7 +4,7 @@
 
 자바 소스코드 안에 SQL문을 작성하면 코드가 길어지고 유지보수 및 분업이 쉽지 않다. 이러한 문제를 해결하기 위해 MyBatis를 사용하는데, MyBatis는 기존 JDBC 방식과는 다르게 SQL문을 XML  파일에 작성함으로써 코드가 줄어들고 SQL문 수정이 편해진다. 또한 DBCP를 사용하여 커넥션을 여러개 생성하기 때문에 JDBC만 사용하는 것보다 작업 효율과 가독성이 좋아진다.
 
-> [JDBC DBCP가 뭐더라..? 클릭!](https://github.com/rlaalstjd00/TIL/blob/master/02_DBconnection/00_JDBC%20DBCP%20JNDI.md)
+> [JDBC DBCP 복습 바로가기](https://github.com/rlaalstjd00/TIL/blob/master/03_DBconnection/00_JDBC%20DBCP%20JNDI.md)
 
 #### MyBatis 작동원리
 
@@ -61,5 +61,5 @@ DAO 클래스에서는 SQL문을 실행하는 메서드만 존재하고 SQL문�
 
 #### MyBatis 예제
 
-- [MyBatis를 사용해 회원가입 및 로그인 구현](https://github.com/rlaalstjd00/Web_practice/tree/master/01_mybatis_prac)
+- [MyBatis를 사용해 회원가입 및 로그인 구현](https://github.com/rlaalstjd00/Web_practice/tree/master/01_mybatis-prac)
 

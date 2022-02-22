@@ -73,5 +73,5 @@ a.jsp 에서 b.jsp로 이동한다고 가정할 때,
 
 #### Front-Controller 예제
 
-[Front-Controller 구조를 이용해 회원가입 구현](https://github.com/rlaalstjd00/Web_practice/tree/master/02_frontController_prac)
+[Front-Controller 구조를 이용해 회원가입 구현](https://github.com/rlaalstjd00/Web_practice/tree/master/02_frontController-prac)
 
