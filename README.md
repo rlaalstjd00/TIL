@@ -2,7 +2,7 @@
 
 #### Today I Learned! ✅
 
-00_Algorithm : 알고리즘 공부 (Python 기반)
+00_Algorithm : 알고리즘 공부
 
 01_Java : 자바의 문법과 여러 클래스들의 기본 개념 공부
 
