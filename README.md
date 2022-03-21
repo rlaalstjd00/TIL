@@ -18,7 +18,7 @@
 
 07_JSP : JSP의 기본과 서블릿, Ajax, Mybatis
 
-08_MVC : MVC 패턴과 Front-Controller
+08_MVC : MVC 패턴과 Front-Controller 공부
 
 09_Spring : JSP 방식과 비교한 스프링 공부
 
