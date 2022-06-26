@@ -6,7 +6,7 @@
 - 프론트 컨트롤러가 요청에 맞는 컨트롤러를 찾아서 호출
 - 프론트 컨트롤러 외의 나머지 컨트롤러는 서블릿을 사용하지 않아도 됨
 
-<img src="C:\Github\TIL\99_img_src\FrontController.PNG" width="650">
+<img src="..\99_img_src\FrontController.PNG" width="650">
 
 #### URL 매핑
 
@@ -27,7 +27,7 @@
 
 #### Front-Controller 작동방식
 
-<img src="C:\Github\TIL\99_img_src\FrontController2.PNG" width="650">
+<img src="..\99_img_src\FrontController2.PNG" width="650">
 
 > 위의 작동방식은 기존의 서블릿이나 JSP를 통한 MVC 패턴보다 발전된 형태이다.
 >
@@ -37,7 +37,7 @@
 
 #### 어댑터 패턴을 도입한 MVC 패턴
 
-<img src="C:\Github\TIL\99_img_src\FrontController3.PNG" width="650">
+<img src="..\99_img_src\FrontController3.PNG" width="650">
 
 
 
