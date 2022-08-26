@@ -6,7 +6,7 @@ Request Mapping을 보기 앞서`@Controller`와 `@RestController`의 차이에 
 - `@RestController`는 뷰의 이름을 찾는 것이 아니라, 바로 HTTP 메시지 바디에 입력된다.
 - `@Controller`로 사용해도 메서드 범위에 `@ResponseBody` 어노테이션을 적으면 그 메서드에 한해 반환된 문자열이 HTTP 메시지 바디에 입력된다.
 
-
+<br>
 
 ### @RequestMapping
 
@@ -30,6 +30,8 @@ public class MappingController{
 
 아래의 예시부터는 클래스범위는 생략하며 클래스 단위에 `@Slf4j` 와 `@RestController`가 있다고 전제한다.
 
+<br>
+
 ### 경로변수 사용
 
 `@PathVariable` 이라는 어노테이션을 이용해 경로변수를 사용할 수 있다.
@@ -48,7 +50,7 @@ public String mappingPath(@PathVariable("userId") String userId){
 
 경로변수는 여러개도 사용 가능하며, `@PathVariable` 이름과 파라미터 이름이 같으면 `@PathVariable String userId` 와 같이 생략가능하다.
 
-
+<br>
 
 ### 파라미터 추가 매핑 
 
@@ -64,7 +66,7 @@ public String mappingParam(){
 
 쿼리 파라미터에 `mode=debug` 가 있을때만 호출된다.
 
-
+<br>
 
 ### 헤더 추가 매핑
 
@@ -80,7 +82,7 @@ public String mappingHeader(){
 
 HTTP 헤더에 `mode=debug` 가 있을때만 호출된다.
 
-
+<br>
 
 ### 미디어타입 조건 매핑 Content-Type, consume
 
@@ -96,7 +98,7 @@ public String mappingConsumes(){
 
 `Content-Type`이 `application/json` 일때만 호출된다.
 
-
+<br>
 
 ### 미디어타입 조건 매핑 Accept, produce
 

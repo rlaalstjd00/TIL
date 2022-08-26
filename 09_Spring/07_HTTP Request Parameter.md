@@ -4,7 +4,7 @@
 
 아래의 예제코드는 모두 메서드 단위로, 클래스 범위에 모두 `@Slf4j`와 `@RestController`가 있다고 전제한다.
 
-
+<br>
 
 ### @RequestParam의 사용
 
@@ -25,7 +25,7 @@ public String requestParam(
 
 참고로, `String`, `int`, `Integer` 같은 단순 타입이면 `@RequestParam` 어노테이션도 생략이 가능하다.
 
-
+<br>
 
 ### @ReqeustParam 파라미터의 필수 여부
 
@@ -48,7 +48,7 @@ public String requestParam(
 >
 > **`@RequestParam` 어노테이션을 생략하면 `required = false`가 됨에 주의하자!!**
 
-
+<br>
 
 ### @RequestParam 파라미터의 기본값
 
@@ -70,7 +70,7 @@ public String requestParam(
 >
 > 하지만 `defaultValue` 속성으로 기본값을 설정해주면 빈 문자열도 기본값으로 바뀐다.
 
-
+<br>
 
 ### @RequestParam 파라미터 Map으로 조회
 
@@ -87,7 +87,7 @@ public String requestParam(@RequestParam Map<String, Object> paramMap){
 > - `Map` : `key = value`
 > - `MultiValueMap` : `key = [value1, value2, value3, ..]`
 
- 
+<br>
 
 ### @ModelAttribute의 사용
 
