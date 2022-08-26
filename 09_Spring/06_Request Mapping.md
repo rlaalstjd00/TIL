@@ -4,6 +4,7 @@ Request Mapping을 보기 앞서`@Controller`와 `@RestController`의 차이에 
 
 - `@Controller`는 반환 타입이 `String` 이라면, 해당 문자열을 이름으로 가지는 뷰를 찾아 랜더링한다.
 - `@RestController`는 뷰의 이름을 찾는 것이 아니라, 바로 HTTP 메시지 바디에 입력된다.
+- `@Controller`로 사용해도 메서드 범위에 `@ResponseBody` 어노테이션을 적으면 그 메서드에 한해 반환된 문자열이 HTTP 메시지 바디에 입력된다.
 
 
 
