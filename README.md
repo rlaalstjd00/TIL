@@ -1,3 +1,5 @@
+## 23.2.25) 더 많은 TIL은 [블로그](https://velog.io/@rlaalstjd00)로 와주세요
+
 ## TIL
 
 #### Today I Learned! ✅
